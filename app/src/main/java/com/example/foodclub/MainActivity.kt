@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         btn = findViewById(R.id.BtnChange)
 
         val actionBar = supportActionBar
-        actionBar!!.title = resources.getString(R.string.app_name)
+        actionBar?.title = resources.getString(R.string.app_name)
         btn.setOnClickListener {
             showLanguage()
         }
