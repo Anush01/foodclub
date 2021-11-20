@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FoodClub</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">name</string>
+    <string name="age">Age</string>
 </resources>
