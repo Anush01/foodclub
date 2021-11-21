@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.foodclub">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -12,10 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodClub">
         <activity
-            android:name=".PaymentOption"
+            android:name=".SignUp"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginUser"
+            android:exported="true" />
+        <activity
+            android:name=".EditOrder"
+            android:exported="true" />
+        <activity
+            android:name=".Myinfo"
+            android:exported="true" />
+        <activity
+            android:name=".MyOrders"
+            android:exported="true" />
+        <activity
+            android:name=".AllOrdersActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +33,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PaymentOption"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>

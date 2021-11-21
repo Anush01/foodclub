@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username: "
+        />
+
+    <TextView
+
+        android:id="@+id/dish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dish: "
+        /><TextView
+
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="amount: "
+        /><TextView
+
+        android:id="@+id/upi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPI: "
+        /><TextView
+
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        /><TextView
+
+        android:id="@+id/received"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recieved: "
+        /><TextView
+
+        android:id="@+id/paid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paid: "
+        />
+
+    <TextView
+
+        android:id="@+id/firebaseid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paid: "
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        />
+
+</LinearLayout>

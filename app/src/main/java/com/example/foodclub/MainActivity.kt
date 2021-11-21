@@ -2,6 +2,7 @@ package com.example.foodclub
 
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +12,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var btn : Button
+    lateinit var paymentoptionupi : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         LoadLocale()
@@ -19,6 +21,12 @@ class MainActivity : AppCompatActivity() {
         //edit
         //edit2
         btn = findViewById(R.id.BtnChange)
+        paymentoptionupi = findViewById(R.id.paymentoptionupi)
+
+        paymentoptionupi.setOnClickListener {
+            val i = Intent(this,PaymentOption::class.java)
+            startActivity(i)
+        }
 
         val actionBar = supportActionBar
         actionBar?.title = resources.getString(R.string.app_name)
